@@ -1,0 +1,134 @@
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	
+	border-bottom: 8px solid black;
+	cursor: pointer;
+}
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	
+	border-top: 8px solid #f00;
+	cursor: pointer;
+}
+
+
+#blog-table
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 14px;
+	width: 480px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#blog-table th
+{
+	font-size: 14px;
+	font-weight: normal;
+	padding: 12px 15px;
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	color: #039;
+}
+#blog-table td
+{
+	padding: 8px 15px;
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	color: #669;
+}
+.blog-table-odd
+{
+	background: #eff2ff;
+}
+.blog-table-even
+{
+	background: #e8edff;
+}
+#blog-table #blog-table-adventure, #blog-table #blog-table-children
+{
+	background: #d0dafd;
+	border-bottom: 1px solid #c8d4fd;
+}
+#blog-table #blog-table-comedy, #blog-table #blog-table-action
+{
+	background: #dce4ff;
+	border-bottom: 1px solid #d6dfff;
+}
+
+
+.surface{
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+background: #e9eaee;
+border: 2px solid #ffffff;
+padding: 32px 40px 20px 32px;
+width: 590px;
+box-shadow: 1px 2px 6px rgba(0,0,0, 0.5);
+-moz-box-shadow: 1px 2px 6px rgba(0,0,0, 0.5);
+-webkit-box-shadow: 1px 2px 6px rgba(0,0,0, 0.5);
+}
+
+.imageradio{
+width: 140px;
+display: inline-block;
+height: 140px;
+margin-right: 20px;
+}
+
+.circlesquare{
+width: 64px;
+display: inline-block;
+height: 64px;
+margin-right: 20px;
+}
+
+.notchecked{
+margin-left: 26px !important; 
+margin-top: 43px !important;
+}
+
+.imagebutton{
+margin-top: 120px !important;
+margin-left: 47% !important;
+}
+
+.listsocial {
+display: list-item;
+list-style: none;
+}
+
+.corner{
+width: 85px;
+display: inline-block;
+height: 85px;
+margin-right: 20px;
+}
+
+.cornerstyle{
+margin-top: 81% !important;
+margin-left: 42% !important;
+}
+
+.cardlayout{
+float:left;
+margin:0;
+width:33%;
+}
+
+.checkboxgroup{
+    display:inline-block;
+    text-align:center;
+    padding: 10px;
+}
+.checkboxgroup label {
+    display:block;
+}
